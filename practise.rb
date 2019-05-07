@@ -699,13 +699,16 @@
 # puts nums
 
 #case
-name = "John"
-location = case name
-	when "David" then "UK"
-	when "Larry" then "France"
-	when "John" then "USA"
-	when "Alizabeth" then "UK"
-	else "Unknown"
-	end
+# name = "John"
+# location = case name
+# 	when "David" then "UK"
+# 	when "Larry" then "France"
+# 	when "John" then "USA"
+# 	when "Alizabeth" then "UK"
+# 	else "Unknown"
+# 	end
 
-	puts name + " lives in " + location
+# 	puts name + " lives in " + location
+
+
+
