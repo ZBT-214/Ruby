@@ -651,3 +651,49 @@
 # puts f.size
 # f.close
 # puts File.zero?("test.txt")
+
+#Stack
+# class Stack
+# 	def initialize
+# 		@data = []
+# 	end
+# 	def push(value)
+# 		@data.push(value)
+# 	end
+# 	def pop
+# 		@data.pop
+# 	end
+# 	def display
+# 		puts @data
+# 	end
+# end
+# stack1 = Stack.new
+# stack1.push(3)
+# stack1.push(4)
+# stack1.push(5)
+# stack1.push(9)
+# stack1.display
+# puts "--------"
+# #pop
+# stack1.pop
+# stack1.pop
+# stack1.display
+
+# Sorting (bubble sort)
+# def bubbleSort(arr)
+# 	swapped = true
+# 	for i in 0...(arr.length - 1)
+# 		swapped = false
+# 		for j in 0...(arr.length - i - 1)
+# 			if arr[j] > arr[j + 1]
+# 				arr[j], arr[j + 1] = arr[j + 1], arr[j]
+# 				swapped = true
+# 			end
+# 		end
+# 		break if swapped == false
+# 	end
+# end
+
+# nums = [7, 2, 5, 1, 6, 0, 9, 4]
+# bubbleSort(nums)
+# puts nums
