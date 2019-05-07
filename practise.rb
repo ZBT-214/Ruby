@@ -697,3 +697,15 @@
 # nums = [7, 2, 5, 1, 6, 0, 9, 4]
 # bubbleSort(nums)
 # puts nums
+
+#case
+name = "John"
+location = case name
+	when "David" then "UK"
+	when "Larry" then "France"
+	when "John" then "USA"
+	when "Alizabeth" then "UK"
+	else "Unknown"
+	end
+
+	puts name + " lives in " + location
